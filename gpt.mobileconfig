@@ -16,15 +16,15 @@ iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNS
 		        <key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>ChatGPT</string>
+			<string>179io</string>
 			<key>PayloadDescription</key>
 			<string>Configures Web Clip</string>
 			<key>PayloadDisplayName</key>
-			<string>Ninh 07</string>
+			<string>Mai Thanh Tùng</string>
 			<key>PayloadIdentifier</key>
-			<string>vn.ycs.hhn.WebClip</string>
+			<string>vn.ycs.179io.WebClip</string>
 			<key>PayloadOrganization</key>
-			<string>HHN Store</string>
+			<string>179io-MTT</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
@@ -38,13 +38,13 @@ iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNS
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Cài Đặt ChatGPT tiện ích tạo bởi Hoàng Hải Ninh</string>
+	<string>Cài Đặt 179io tiện ích tạo bởi Mai Thanh Tùng</string>
 	<key>PayloadDisplayName</key>
-	<string>ChatGPT</string>
+	<string>179io</string>
 	<key>PayloadIdentifier</key>
-	<string>cm.ChatGPT.hhnipa</string>
+	<string>cm.179io.mtt</string>
 	<key>PayloadOrganization</key>
-	<string> ChatGPT  </string>
+	<string> 179io Thanh Tùng </string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
