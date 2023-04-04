@@ -1,0 +1,387 @@
+.nav {
+    margin-bottom: env(safe-area-inset-bottom);
+    margin-bottom: 0px;
+    padding-bottom: env(safe-area-inset-bottom);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    overflow-x: auto;
+    text-decoration: none;
+    z-index: 2;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+.navtxt1 {
+    color: #007bff;
+    font-size: 13px;
+}
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    font-size: 1rem;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+.tab {
+    height: auto;
+    width: 25px;
+}
+.tab3 {
+    height: auto;
+    width: 20px;
+}
+.tab2 {
+    height: auto;
+    width: 20px;
+    left: 1px;
+    right: 1px;
+}
+        body {
+        background: -webkit-linear-gradient(left, #2c6eac, #0022ff); 
+        background: -o-linear-gradient(right, #006eff, #003cff);
+        background: -moz-linear-gradient(right, #ffffff, #0026ff);
+        background: linear-gradient(to right, #09168dad, #00030200);
+        background-color: #041325;
+    } 
+.button1 {
+    font-size: 100%;
+    font-weight: 1px;
+    background-color: Crimson;
+    padding: 20px 24px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(58, 56, 56);
+    color: rgb(253, 250, 250);  
+    border: 2px solid #ffffff;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+}
+.button:hover {  
+    background-color: crimson;  
+    color: white;
+}
+
+
+.app-icon {
+    right: 4px;
+    left: 5%;
+    margin-top: 10px;
+    border-radius: 11px;
+    position: absolute;
+    z-index: 1;
+}
+.app-icon {
+    border-radius: 15px 15px 15px 15px;
+    width: 45px;
+}
+* {
+    -webkit-touch-callout: none;
+    /* -webkit-user-select: none; */
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.form {
+    margin-top: 7px;
+} .nav {
+    margin-bottom: env(safe-area-inset-bottom);
+    margin-bottom: 0px;
+    padding-bottom: env(safe-area-inset-bottom);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    overflow-x: auto;
+    text-decoration: none;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+.navtxt1 {
+    color: #007bff;
+    font-size: 13px;
+}
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    font-size: 1rem;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+.tab {
+    height: auto;
+    width: 25px;
+}
+.tab3 {
+    height: auto;
+    width: 20px;
+}
+.tab2 {
+    height: auto;
+    width: 20px;
+    left: 1px;
+    right: 1px;
+}
+        body {
+        background: -webkit-linear-gradient(left, #2c6eac, #0022ff); 
+        background: -o-linear-gradient(right, #006eff, #003cff);
+        background: -moz-linear-gradient(right, #ffffff, #0026ff);
+        background: linear-gradient(to right, #09168dad, #00030200);
+        background-color: #041325;
+    } 
+.button1 {
+    font-size: 100%;
+    font-weight: 1px;
+    background-color: Crimson;
+    padding: 20px 24px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(58, 56, 56);
+    color: rgb(253, 250, 250);  
+    border: 2px solid #ffffff;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+    z-index: 1;
+}
+.button:hover {  
+    background-color: crimson;  
+    color: white;
+}
+
+
+.app-icon {
+    right: 4px;
+    left: 5%;
+    margin-top: center;
+    border-radius: 11px;
+    position: absolute;
+    z-index: 1;
+}
+.app-icon {
+    border-radius: 15px 15px 15px 15px;
+    width: 45px;
+}
+* {
+    -webkit-touch-callout: none;
+    /* -webkit-user-select: none; */
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.form {
+    margin-top: 7px;
+} 
